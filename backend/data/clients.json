@@ -1,0 +1,50 @@
+[
+  {
+    "id": "c-mt21bo7s137",
+    "createdAt": "2026-08-20T21:30:54.424Z",
+    "name": "Boulangerie Dupont",
+    "contact": "M. Dupont",
+    "email": "contact@boulangerie-dupont.fr",
+    "phone": "06 12 34 56 78",
+    "address": "3 rue des Artisans",
+    "postalCity": "75011 Paris",
+    "vatNumber": "",
+    "notes": "Client fidèle, livraison le matin"
+  },
+  {
+    "id": "c-mt21bo7t585",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Hôtel Le Rivage",
+    "contact": "Mme Martin",
+    "email": "reservation@rivage-hotel.fr",
+    "phone": "01 45 67 89 01",
+    "address": "8 quai de la Plage",
+    "postalCity": "64200 Biarritz",
+    "vatNumber": "FR 99 876543210",
+    "notes": ""
+  },
+  {
+    "id": "c-mt21bo7t902",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Café de la Gare",
+    "contact": "M. Petit",
+    "email": "cafe.gare@gmail.com",
+    "phone": "07 98 76 54 32",
+    "address": "14 avenue de la Gare",
+    "postalCity": "44000 Nantes",
+    "vatNumber": "",
+    "notes": "Demande régulière en gros"
+  },
+  {
+    "id": "c-mt21bo7t682",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Supermarché Centre",
+    "contact": "Mme Robert",
+    "email": "achat@supercentre.fr",
+    "phone": "02 40 12 34 56",
+    "address": "1 place du Marché",
+    "postalCity": "49000 Angers",
+    "vatNumber": "FR 45 123456789",
+    "notes": "Paiement à 30 jours"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "p-mt21bo7t899",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "reference": "CAF-001",
+    "name": "Café Arabica 1kg",
+    "category": "Épicerie",
+    "buyPrice": 8.5,
+    "sellPrice": 14.9,
+    "quantity": 107,
+    "alertThreshold": 20,
+    "unit": "kg"
+  },
+  {
+    "id": "p-mt21bo7t798",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "reference": "SUC-001",
+    "name": "Sucre de canne 500g",
+    "category": "Épicerie",
+    "buyPrice": 1.2,
+    "sellPrice": 2.8,
+    "quantity": 240,
+    "alertThreshold": 50,
+    "unit": "pièce"
+  },
+  {
+    "id": "p-mt21bo7u76",
+    "createdAt": "2026-08-20T21:30:54.426Z",
+    "reference": "FAR-001",
+    "name": "Farine T55 1kg",
+    "category": "Boulangerie",
+    "buyPrice": 0.9,
+    "sellPrice": 2.2,
+    "quantity": 15,
+    "alertThreshold": 40,
+    "unit": "kg"
+  },
+  {
+    "id": "p-mt21bo7u703",
+    "createdAt": "2026-08-20T21:30:54.426Z",
+    "reference": "HUI-001",
+    "name": "Huile d’olive 75cl",
+    "category": "Épicerie",
+    "buyPrice": 4.2,
+    "sellPrice": 8.9,
+    "quantity": 80,
+    "alertThreshold": 20,
+    "unit": "pièce"
+  },
+  {
+    "id": "p-mt21bo7u649",
+    "createdAt": "2026-08-20T21:30:54.426Z",
+    "reference": "CAR-001",
+    "name": "Carton d’emballage 40x30",
+    "category": "Emballage",
+    "buyPrice": 0.6,
+    "sellPrice": 1.5,
+    "quantity": 500,
+    "alertThreshold": 100,
+    "unit": "pièce"
+  },
+  {
+    "id": "p-mt21bo7u509",
+    "createdAt": "2026-08-20T21:30:54.426Z",
+    "reference": "PLA-001",
+    "name": "Boîte plastique 1L",
+    "category": "Emballage",
+    "buyPrice": 0.35,
+    "sellPrice": 0.95,
+    "quantity": 300,
+    "alertThreshold": 80,
+    "unit": "pièce"
+  },
+  {
+    "id": "p-mt21bo7u951",
+    "createdAt": "2026-08-20T21:30:54.426Z",
+    "reference": "LAI-001",
+    "name": "Lait demi-écrémé 1L",
+    "category": "Boulangerie",
+    "buyPrice": 0.8,
+    "sellPrice": 1.6,
+    "quantity": 8,
+    "alertThreshold": 30,
+    "unit": "pièce"
+  }
+]

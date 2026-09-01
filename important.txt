@@ -1,0 +1,29 @@
+Bonne nouvelle : cette application est en Node.js (Express + Vue/Vite) et stocke les données dans des fichiers JSON — elle n'a donc pas besoin de XAMPP (ni Apache, ni MySQL). Il faut juste Node.js installé (>= 16, dispo sur https://nodejs.org).
+
+Voici comment la lancer sur votre poste :
+
+1. Copiez le projet sur votre machine, puis ouvrez un terminal dans le dossier.
+
+2. Démarrez le backend (port 3001) :
+
+
+cd backend
+npm install
+npm run seed
+npm start
+3. Démarrez le frontend (port 5173) — dans un second terminal :
+
+
+cd frontend
+npm install
+npm run dev
+4. Ouvrez http://localhost:5173 dans votre navigateur et connectez-vous avec les comptes de démonstration :
+
+admin / admin123 (administrateur — tous droits)
+user / user123 (utilisateur standard)
+Notes utiles :
+
+Le frontend redirige déjà ses appels /api vers localhost:3001 (configuré dans vite.config.js), donc pas de configuration CORS à faire.
+Les données sont dans backend/data/ (fichiers JSON) — c'est là que sont stockés clients, produits, documents, utilisateurs, etc.
+Après une modification de code backend, relancez npm start (les données JSON persistent). Le frontend se recharge tout seul (npm run dev).
+Si vous préférez utiliser le port 80 d'Apache (XAMPP), vous pourriez le configurer comme proxy inverse, mais ce n'est pas nécessaire — le port 5173 suffit.

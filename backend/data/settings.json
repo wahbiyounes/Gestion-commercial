@@ -1,0 +1,24 @@
+{
+  "company": {
+    "name": "Ma Société",
+    "legalName": "Ma Société SARL",
+    "logo": null,
+    "siret": "123 456 789 00012",
+    "vatNumber": "FR 12 345678901",
+    "address": "12 rue de l’Exemple",
+    "postalCity": "75000 Paris",
+    "phone": "01 23 45 67 89",
+    "email": "contact@masociete.fr",
+    "website": "www.masociete.fr"
+  },
+  "document": {
+    "showHeader": false,
+    "headerText": "Ma Société SARL — 12 rue de l’Exemple, 75000 Paris — RCS Paris 123 456 789",
+    "showFooter": false,
+    "footerText": "Merci de votre confiance. Règlement à réception de facture.",
+    "accentColor": "#2563eb",
+    "currency": "MAD",
+    "defaultVatRate": 20,
+    "terms": "Les marchandises restent la propriété du vendeur jusqu’au paiement intégral du prix."
+  }
+}

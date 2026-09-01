@@ -1,0 +1,350 @@
+[
+  {
+    "id": "doc-d1",
+    "type": "devis",
+    "typeLabel": "Devis",
+    "number": "DEV-0002",
+    "date": "2026-08-17T00:00:00.000Z",
+    "dueDate": null,
+    "partnerId": "c-mt21bo7s137",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7t899",
+        "description": "Café Arabica 1kg",
+        "quantity": 20,
+        "unitPrice": 13.9
+      },
+      {
+        "productId": "p-mt21bo7t798",
+        "description": "Sucre de canne 500g",
+        "quantity": 40,
+        "unitPrice": 2.5
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "accepte",
+    "currency": "EUR",
+    "createdAt": "2026-08-17T21:30:54.426Z",
+    "totals": {
+      "base": 378,
+      "discount": 0,
+      "taxable": 378,
+      "vat": 75.6,
+      "total": 453.6
+    }
+  },
+  {
+    "id": "doc-d2",
+    "type": "devis",
+    "typeLabel": "Devis",
+    "number": "DEV-0001",
+    "date": "2026-08-12T21:30:54.426Z",
+    "dueDate": null,
+    "partnerId": "c-mt21bo7t902",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7u703",
+        "description": "Huile d’olive 75cl",
+        "quantity": 12,
+        "unitPrice": 8.5
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "accepte",
+    "currency": "EUR",
+    "createdAt": "2026-08-12T21:30:54.426Z",
+    "totals": {
+      "base": 102,
+      "discount": 0,
+      "taxable": 102,
+      "vat": 20.400000000000002,
+      "total": 122.4
+    }
+  },
+  {
+    "id": "doc-f1",
+    "type": "facture",
+    "typeLabel": "Facture",
+    "number": "FAC-0001",
+    "date": "2026-08-08T21:30:54.426Z",
+    "dueDate": null,
+    "partnerId": "c-mt21bo7t585",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7t899",
+        "description": "Café Arabica 1kg",
+        "quantity": 30,
+        "unitPrice": 14.9
+      },
+      {
+        "productId": "p-mt21bo7u76",
+        "description": "Farine T55 1kg",
+        "quantity": 60,
+        "unitPrice": 2.2
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "payee",
+    "currency": "EUR",
+    "createdAt": "2026-08-08T21:30:54.426Z",
+    "totals": {
+      "base": 579,
+      "discount": 0,
+      "taxable": 579,
+      "vat": 115.80000000000001,
+      "total": 694.8
+    }
+  },
+  {
+    "id": "doc-bc1",
+    "type": "commande",
+    "typeLabel": "Bon de commande",
+    "number": "BC-0001",
+    "date": "2026-08-15T00:00:00.000Z",
+    "dueDate": null,
+    "partnerId": "f-mt21bo7t106",
+    "partnerType": "fournisseur",
+    "items": [
+      {
+        "productId": "p-mt21bo7u649",
+        "description": "Carton d’emballage 40x30",
+        "quantity": 200,
+        "unitPrice": 0.55
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "brouillon",
+    "currency": "EUR",
+    "createdAt": "2026-08-15T21:30:54.426Z",
+    "totals": {
+      "base": 110,
+      "discount": 0,
+      "taxable": 110,
+      "vat": 22,
+      "total": 132
+    }
+  },
+  {
+    "id": "doc-bl1",
+    "type": "livraison",
+    "typeLabel": "Bon de livraison",
+    "number": "BL-0001",
+    "date": "2026-08-18T21:30:54.427Z",
+    "dueDate": null,
+    "partnerId": "c-mt21bo7s137",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7u76",
+        "description": "Farine T55 1kg",
+        "quantity": 40,
+        "unitPrice": 2.2
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "valide",
+    "currency": "EUR",
+    "createdAt": "2026-08-18T21:30:54.427Z",
+    "totals": {
+      "base": 88,
+      "discount": 0,
+      "taxable": 88,
+      "vat": 17.6,
+      "total": 105.6
+    }
+  },
+  {
+    "id": "mt23cve7coogkc",
+    "type": "facture",
+    "typeLabel": "Facture",
+    "number": "FAC-0002",
+    "date": "2026-08-20T00:00:00.000Z",
+    "dueDate": "2026-08-31T00:00:00.000Z",
+    "partnerId": "c-mt21bo7t902",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7u703",
+        "description": "Huile d’olive 75cl",
+        "quantity": 10,
+        "unitPrice": 8.9,
+        "discount": 0
+      },
+      {
+        "productId": "p-mt21bo7u951",
+        "description": "Lait demi-écrémé 1L",
+        "quantity": 8,
+        "unitPrice": 1.6,
+        "discount": 0
+      },
+      {
+        "productId": "p-mt21bo7t798",
+        "description": "Sucre de canne 500g",
+        "quantity": 20,
+        "unitPrice": 2.8,
+        "discount": 0
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "accepte",
+    "currency": "EUR",
+    "createdAt": "2026-08-20T22:27:49.615Z",
+    "totals": {
+      "base": 157.8,
+      "discount": 0,
+      "taxable": 157.8,
+      "vat": 31.56,
+      "total": 189.36
+    }
+  },
+  {
+    "id": "mt23gfe9ti0hdt",
+    "type": "livraison",
+    "typeLabel": "Bon de livraison",
+    "number": "BL-0004",
+    "date": "2026-08-20T00:00:00.000Z",
+    "dueDate": "2026-09-05T00:00:00.000Z",
+    "partnerId": "c-mt21bo7s137",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7t798",
+        "description": "Sucre de canne 500g",
+        "quantity": 40,
+        "unitPrice": 2.8,
+        "discount": 0
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "brouillon",
+    "currency": "EUR",
+    "createdAt": "2026-08-20T22:30:35.505Z",
+    "totals": {
+      "base": 112,
+      "discount": 0,
+      "taxable": 112,
+      "vat": 22.4,
+      "total": 134.4
+    }
+  },
+  {
+    "id": "mt4gbfm1nmqa88",
+    "type": "reception",
+    "typeLabel": "Bon de réception",
+    "number": "BR-0001",
+    "date": "2026-08-22T14:06:09.865Z",
+    "dueDate": null,
+    "partnerId": "f-mt21bo7t106",
+    "partnerType": "fournisseur",
+    "items": [
+      {
+        "productId": "p-mt21bo7u649",
+        "description": "Carton d'emballage 40x30",
+        "quantity": 200,
+        "unitPrice": 0.55,
+        "discount": 0
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "valide",
+    "currency": "EUR",
+    "createdAt": "2026-08-22T14:06:09.865Z",
+    "totals": {
+      "base": 110,
+      "discount": 0,
+      "taxable": 110,
+      "vat": 22,
+      "total": 132
+    }
+  },
+  {
+    "id": "mt4gbfmq7sviti",
+    "type": "facture_fournisseur",
+    "typeLabel": "Facture fournisseur",
+    "number": "FF-0001",
+    "date": "2026-08-22T14:06:09.890Z",
+    "dueDate": null,
+    "partnerId": "f-mt21bo7t106",
+    "partnerType": "fournisseur",
+    "items": [
+      {
+        "productId": "p-mt21bo7u649",
+        "description": "Carton d'emballage 40x30",
+        "quantity": 200,
+        "unitPrice": 0.55,
+        "discount": 0
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "a_regulariser",
+    "currency": "EUR",
+    "createdAt": "2026-08-22T14:06:09.890Z",
+    "totals": {
+      "base": 110,
+      "discount": 0,
+      "taxable": 110,
+      "vat": 22,
+      "total": 132
+    }
+  },
+  {
+    "id": "mt4gssmwaz6typ",
+    "type": "devis",
+    "typeLabel": "Devis",
+    "number": "DEV-0004",
+    "date": "2026-08-22T00:00:00.000Z",
+    "dueDate": "2026-09-05T00:00:00.000Z",
+    "partnerId": "c-mt21bo7t682",
+    "partnerType": "client",
+    "items": [
+      {
+        "productId": "p-mt21bo7t798",
+        "description": "Sucre de canne 500g",
+        "quantity": 10,
+        "unitPrice": 2.8,
+        "discount": 0
+      },
+      {
+        "productId": "p-mt21bo7u509",
+        "description": "Boîte plastique 1L",
+        "quantity": 10,
+        "unitPrice": 0.95,
+        "discount": 0
+      }
+    ],
+    "notes": "",
+    "discountPct": 0,
+    "vatRate": 20,
+    "status": "brouillon",
+    "currency": "MAD",
+    "createdAt": "2026-08-22T14:19:39.896Z",
+    "totals": {
+      "base": 37.5,
+      "discount": 0,
+      "taxable": 37.5,
+      "vat": 7.5,
+      "total": 45
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f-mt21bo7t106",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Grossiste Alimentaire SARL",
+    "contact": "M. Laurent",
+    "email": "ventes@grossiste-alim.fr",
+    "phone": "01 44 55 66 77",
+    "address": "25 rue des Entrepôts",
+    "postalCity": "93200 Saint-Denis",
+    "vatNumber": "FR 88 112233445",
+    "notes": ""
+  },
+  {
+    "id": "f-mt21bo7t754",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Transports Express",
+    "contact": "Mme Ndiaye",
+    "email": "logistique@transports-express.fr",
+    "phone": "03 20 30 40 50",
+    "address": "Zone industrielle Nord",
+    "postalCity": "59300 Valenciennes",
+    "vatNumber": "",
+    "notes": "Livraison sous 48h"
+  },
+  {
+    "id": "f-mt21bo7t804",
+    "createdAt": "2026-08-20T21:30:54.425Z",
+    "name": "Emballages Pro",
+    "contact": "M. Bernard",
+    "email": "contact@emballages-pro.fr",
+    "phone": "04 72 10 20 30",
+    "address": "7 rue des Cartonniers",
+    "postalCity": "69008 Lyon",
+    "vatNumber": "FR 33 556677889",
+    "notes": ""
+  }
+]

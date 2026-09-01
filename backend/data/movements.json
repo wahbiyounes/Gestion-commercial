@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mt21ia3u6ssdp1",
+    "productId": "p-mt21bo7t899",
+    "type": "out",
+    "quantity": 10,
+    "reason": "Test sortie",
+    "date": "2026-08-20T21:36:02.730Z",
+    "createdAt": "2026-08-20T21:36:02.730Z"
+  },
+  {
+    "id": "mt21ie9ai2fr1y",
+    "productId": "p-mt21bo7t899",
+    "type": "out",
+    "quantity": 3,
+    "reason": "Bon de livraison BL-0003",
+    "date": "2026-08-20T21:36:08.110Z",
+    "createdAt": "2026-08-20T21:36:08.110Z"
+  }
+]
