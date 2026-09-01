@@ -14,8 +14,10 @@ Application web responsive de gestion d'entreprise : clients, fournisseurs, stoc
   - Numérotation automatique (DEV-0001, BL-0001, FAC-0001, BC-0001, BR-0001, FF-0001)
   - Lignes depuis le catalogue produits, remises, TVA, totaux auto
   - Statuts (brouillon, envoyé, accepté, validé, payé, à régulariser…)
-  - Validation d'un bon de livraison / d'un bon de réception → mise à jour automatique du stock
-- **Personnalisation** : logo (upload), informations de l'entreprise (nom, SIRET, TVA, adresse…), en-tête, pied de page, couleur d'accent, TVA par défaut
+  - Validation d'un bon de livraison / d'un bon de réception / d'une facture → mise à jour automatique du stock (la facture validée sort du stock)
+  - Montant total en toutes lettres sur les documents imprimés
+- **Personnalisation** : logo (upload), informations de l'entreprise (nom, SIRET, TVA, adresse…), champs personnalisés ajoutables / modifiables / supprimables (ICE, RC, IF…), en-tête, pied de page, couleur d'accent, TVA par défaut
+- **Conditions sur les documents** : modifiables et activables / désactivables (Paramètres → En-tête, pied de page & impression)
 - **Devises** : EUR, MAD (dirham marocain), USD, CHF, FCFA — la devise par défaut s'applique à toute l'application (stock, tableau de bord, récapitulatifs) et chaque document conserve sa propre devise
 - **Impression** : aperçu d'impression de chaque document utilisant la personnalisation (logo, en-tête, pied de page, couleur), avec bouton Imprimer (CSS `@media print`)
 
